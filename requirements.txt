@@ -7,3 +7,4 @@ nltk==3.7.0
 matplotlib==3.6.0
 seaborn==0.12.0
 scikit-learn==1.1.2
+stanza==1.4.2
