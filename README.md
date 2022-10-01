@@ -2,9 +2,9 @@
 
 ## Install
 
-Create conda env (will use python 3.8):
+Create conda env (will use python 3.7):
 ```bash
-conda create --name <env> python=3.8
+conda create --name <env> python=3.7
 ```
 
 Install dependencies:
