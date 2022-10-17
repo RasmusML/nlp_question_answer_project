@@ -23,9 +23,9 @@ def load_datasets_by_language(training_set_path: str, validation_set_path: str):
   validation_ja = extract_data_by_language(validation_set, "japanese")
   
   datasets = {
-    "en": {"train_set": train_en, "validation_set": validation_en},
-    "fi": {"train_set": train_fi, "validation_set": validation_fi},
-    "ja": {"train_set": train_ja, "validation_set": validation_ja},
+    "en": {"training": train_en, "validation": validation_en},
+    "fi": {"training": train_fi, "validation": validation_fi},
+    "ja": {"training": train_ja, "validation": validation_ja},
   }
   
   return datasets
